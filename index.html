@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 07</title>
-</head>
-<body>
     <h1>Olá! me chamo alexandre. E essa é minha nona aula de design web.</h1>
     <h1>Data: 18/09/2026</h1>
+</head>
+<body>
+    <hr/>
+    <h1>Meus Amigos</h1>
+    <hr/>
+    <form action="#" id="cadastro" method="post">
+        <table>
+            <tr>
+                <td>Nome</td>
+                    <td>
+                        <input type="text" required name="nome" minlength="3">
+                    </td>
+            </tr>
+            <tr>
+                <td>Data de Nascimento</td>
+                    <td>
+                        <input type="date" name="nasc">
+                    </td>
+            </tr>
+            <tr>
+                <td>Whatsapp</td>
+                    <td>
+                        <input type="tel" name="whatsapp">
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="adicionar">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
     <script src="app9.js"></script>
 </body>
 </html>
